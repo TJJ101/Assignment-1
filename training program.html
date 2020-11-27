@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="styleshee" href="Normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Training Programs Page</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="bttopbtn" title="Top">Back to Top</button>
+    <div class="mainlogobox">
+        <img class="mainlogo" src="Assets/Logo.png" alt="logo of a guy on a pullup bar">
+    </div><br>
+
+    <nav>
+        <ul class="ul">
+            <li class="li"><a href="index.html">Home</a></li>
+            <li class="li"><a class="active" href="training program.html">Training Programs</a></li>
+            <li class="li"><a href="Equipment Page.html">Equipment</a></li>
+            <li class="li"><a href="Signup Page.html">Signup</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Training Programs</h1>
+    </header>
+    <article>
+        <div class="turquoisebox">
+            <h2>Basics Mastery</h2> 
+            <hr class="hr2">
+            <div class="basicflexbox">
+                <div class="basiccontentimg">
+                    <img class="pullupbarlogo" src="Assets/pullup bar.png" alt="Image of a guy hanging on a Pullup Bar">
+                    <img class="pushup" src="Assets/pushup diagram.jpg" alt="Diagram on How to Do a Push Up">
+                </div>
+            </div>
+            <hr class="hr3">
+            <h2>What This Plan Includes:</h2>
+            <div class="flexbox2">
+                <ul class="listcontent">
+                    <li style="color: #871313;"><p class="listcontent">
+                    A comprehensive guide with supporting media, explaining everything you need to 
+                    build a strong foundation in Calisthenics 
+                    </p></li>
+                    <li style="color: #871313;"><p class="listcontent">
+                    1-on-1 Video Call Coaching to help address any problems you may face
+                    </p></li>
+                    <li style="color: #871313;"><p class="listcontent">
+                    How to Structure your future training sessions
+                    </p></li>
+                    <li style="color: #871313;"><p class="listcontent">
+                    In-depth guide to Nutrition and Training Principals
+                    </p></li>
+                    <li style="color: #871313;"><p class="listcontent">
+                    Full guide on Injury Prevention
+                    </p></li>
+                </ul>
+            </div><br>
+            <div class="flexbox3">
+                <p>$59 SGD</p>
+                <a href="checkout page.html" class="buynow">Buy Now</a>
+            </div>
+        </div>
+    </article>
+    <hr> 
+    <article>
+        <div class="bluebox"> 
+            <h2>Handstand Mastery</h2>
+            <hr class="hr2">
+            <div class="hsbox">
+                <div class="hsmascontent">
+                    <img class="handstandimg"src="Assets/handstand.jpg">
+                    <video class="handstandvid" control>
+                        <source src="Assets/Handstand Video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <hr class="hr3">
+            <h2>What This Plan Includes:</h2>
+            <div class="flexbox2">
+                <ul class="listcontent">
+                    <li style="color: #871313;"><p class="listcontent">
+                        Comprehensive Guide with supporting media on all things Handstand related  
+                        </p></li>
+                        <li style="color: #871313;"><p class="listcontent">
+                            Different Progressions of Handstands to help develop handbalancing
+                            skills and confidence
+                        </p></li>
+                        <li style="color: #871313;"><p class="listcontent">
+                            Warm up and Conditioning Routine to reduce risk of injuries
+                        </p></li>
+                        <li style="color: #871313;"><p class="listcontent">
+                            1-on-1 Video Call
+                        </p></li>
+                </ul>
+            </div>
+            <div class="flexbox3">
+                <p>$39 SGD</p>
+                <a href="checkout page.html" class="buynow">Buy Now</a>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <article>
+        <div class="otherbluebox" style="color: #2E55BC;">
+            <h2>Planche Mastery</h2>
+            <hr class="hr2">
+            <div class="flexbox">
+                <video controls>
+                    <source src="Assets/Straddle Planche.mp4" type="video/mp4">
+                </video>
+            </div>
+            <hr class="hr3">
+            <h2>What This Plan Includes:</h2>
+            <div class="flexbox2">
+                <ul class="listcontent">
+                    <li style="color: #871313;"><p class="listcontent">
+                        Comprehensive Guide with supporting media on all things Planche related  
+                    </p></li>
+                    <li style="color: #871313;"><p class="listcontent">
+                        How to train other variation Planche like Presses,
+                        Planche Pushup, etc.                        
+                    </p></li>
+                    <li style="color: #871313;"><p class="listcontent">
+                        A 16-Week Plan suitable for Beginners, Intermediate, 
+                        and Advanced levels
+                    </p></li>
+                    <li style="color: #871313;"><p class="listcontent">
+                        How to plan and program your future Planche training
+                    </p></li>   
+                    <li style="color: #871313;"><p class="listcontent">
+                        Warm-up routine designed to prepare your body and
+                        reduce the risk of injury
+                    </p></li>                    
+                    <li style="color: #871313;"><p class="listcontent">
+                        1-on-1 Video Call
+                    </p></li>
+                </ul>
+            </div>
+            <div class="flexbox3">
+                <p>$99 SGD</p>
+                <a href="checkout page.html" class="buynow">Buy Now</a>
+            </div>
+        </div>
+    </article>
+</body>
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("bttopbtn").style.display = "block";
+  } else {
+    document.getElementById("bttopbtn").style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>	
+</html>

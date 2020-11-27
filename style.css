@@ -1,0 +1,692 @@
+body{
+    background-image: url(Assets/rose\ gold\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana;
+}
+.mainlogo{                          /* for the main logo on top */
+    position: center;
+    width: 15%;
+    height: 15%;
+} 
+.mainlogobox{                           /* flexbox for main logo */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*                                 Everything here is for Navbar                                    */
+.ul{        /*nav bar */
+    position: -webkit-sticky;
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #333;
+    top: 0;
+    z-index: 5000;
+} 
+.li{         /* nav bar content */
+    float: left;
+}
+   
+.li a{       /* nav bar content */
+    display: inline-block;
+    color: white;
+    font-family: Verdana;
+    font-size: small;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+.li a:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.active{
+    background-color: deeppink;
+}  /* This is to make the current page thing to be a different colour on the Navbar */
+
+/*                           End of Navbar Css style                                    */
+
+/*----------------------------------------------------------------------------------------*/
+
+/*                          Back to Top Button Styling                                  */
+#bttopbtn{
+    display: none;
+    position: fixed;
+    border-radius: 10;
+    bottom: 40px;
+    right: 20px;
+    z-index: 99;
+    background-color: #333;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    opacity: 85%;
+}
+#bttopbtn:hover{
+    background-color: deeppink;
+}
+
+/*                      End of Back to Top Button Styling           */
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+header{    /*            For Header               */     
+    font-size: x-large;
+    font-family: Trebuchet MS;
+    text-align: center;
+    
+}
+
+
+h2{                          /* Style for all h2 text   */
+    text-align: center;
+    font-size: xx-large;
+    font-family: Impact;
+    color: #ffffff;
+}
+
+hr{             /* for lines  */
+    border-color:white;
+    width: 100%;
+}
+.hr2{
+    width: 40%; 
+    border-color: white;
+}
+.hr3{
+    /* width: 1100px;  */
+    width: 80%;
+    border-color: white;
+}
+
+
+ /*                         Styling for the link boxes on the Home Page                                 */
+
+.link{         
+    text-decoration: none;
+}
+.link:link, .link:visited {
+    background-color: #333;
+    font-family: inherit;
+    font-size: medium;
+    height: 20px;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+.link:hover, .link:active {
+    background-color: deeppink;
+}
+/*                              End of Link box Styling                                                      */
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+/*                               Coloured Boxes Styling                                         */
+
+.bluebox{           /* Blue Coloured Box */
+    background-color: #23506F;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+}
+.redbox{          /* dark red Coloured Box */
+    background-color: #B83452;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+}
+.greybox{           /* Grey Box */
+    background-color: lightslategray;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+}
+.turquoisebox{          /* The Turquoise looking Box*/
+    background-color: #367079;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 30px;
+}
+
+
+
+/*                                 Styling for origin section starts here                                       */
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.originbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+.origincontent{
+    flex-direction: column;
+    width: 27%;
+    height: 20%;
+    text-align: center;
+    color: gold;
+    font-size: medium;
+    flex-wrap: wrap;
+}
+.onearmhs{                  /* Styling for Logo of One Arm Handstand on the Home Page */
+    width: 20%;
+    height: 22%;
+}
+.ironcross{                 /* Styling for Logo of an Iron Cross on the Home Page */
+    width: 15%;
+    height: 10%;
+}
+/* styling for origin section ends here   */
+
+
+/*styling for the "Why Calisthenics?" section starts here */
+.whycalibox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.whycalicontent{
+    /* color: #285AB1; */
+    color: gold;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 10%;
+    text-align: center;
+    font-size: medium;
+}
+.mystraddle{
+    width: 330px;
+
+}
+.pullupimg{
+    width: 200px;
+    height: 200px;
+}
+/* styling for"Why Calisthenics?"section ends here   */
+
+.whyusbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.whyuscontent{
+    text-align: center;
+    color: gold;
+    width: 360px;
+    padding-top: 30px;
+    font-size: larger;
+}
+.labelimg{
+    width: 350px;
+}
+
+
+
+
+
+/*styling for "How to start?" section starts here  */
+.howtostartcontent{
+    flex-direction: row;
+    width: 400px;
+    text-align: center;
+    color: gold;
+    font-size: medium;
+} 
+.miniheader{
+    text-align: center;
+    font-size: x-large;
+    color: navy;
+}
+.howtostartcontent2{
+    flex-direction: column;
+    text-align: center;
+    color: gold;
+    font-size: 20px;
+
+}
+i{      /*style for all italicized text */
+    font-size: medium;
+}
+
+/* Styling for Embeded video on home page */
+.vidbox{      /*styling for video 1 */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vidcontent{
+    width: 35%;
+    height: fit-content;
+    text-align: center;
+    background-color: #2EA6BC;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+/*                      Style specific to Training Program Page         */
+
+.flexbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listcontent{
+    flex-direction: column;
+    padding: 10px;
+    margin: 3px;
+    align-items: center;
+    font-size: large;
+    color: gold;
+    width: 640px;
+}
+.buynow{
+    border-radius: 10;
+    align-self: center;
+    text-decoration: none;
+    background-color: #333;
+    cursor: pointer;
+    width: 100px;
+    height: 23px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+.buynow:hover{
+    background-color: deeppink;
+}
+.flexbox3{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    color: #3DE16D;
+}
+video{
+    padding: 10px;
+    width: 400px;
+}
+
+
+
+
+/*                      Style for Basic Master                      */
+.basiccontentimg{
+    flex-direction: row;
+    padding: 40px;
+    width: 100%;
+}
+.pullupbarlogo{
+    height: 100%;
+}
+.basicflexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/*                          End of Basics Mastery Section                   */
+
+
+
+/*                            Style for Handstand Mastery Section                   */
+.hsbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.hsmascontent{
+    flex-direction: row;
+}
+.handstandimg{
+    width: 430px;
+    padding: 10px;
+    padding-bottom: 100px;
+    alt: "A picture of myself doing a Handstand";
+}
+.video{
+    padding: 1px;
+    height: 500px;
+}
+
+/*                          End of Handstand Mastery Section            */
+
+
+
+
+/*                              Style for Planche Mastery Section                   */
+
+.otherbluebox{
+    background-color: #2E55BC;
+    margin: 5;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+}
+
+/*                                End of Styling for Planche Mastery Section              */
+/*  -------------------------------------------------------------------------------------             */
+/*                                End of Styling for Training Programs Page                     */
+
+
+
+/* ________________________________________________________________________________________*/
+
+
+/*                                      Styling for Equipment Page                                  */
+.ringsimg{
+    width: 300px;
+    alt: "Gymnastics Rings";
+    padding-right: 250px;
+
+}
+.listcontent2{
+    flex-direction: column;
+    font-size: medium;
+    color: gold;
+    width: 5px;
+}
+.flexbox4{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.salecontent, .dipbartext, .pullupbartext{
+    text-align: left;
+    color: gold;
+    padding-top: 20px;
+    padding-right: 100px;
+    line-height: 300%;
+
+}
+.vertline {
+    border-left: 1.5px solid white;
+    height: 300px;
+    position: absolute;
+    top: 460px;
+    left: 50%;
+    margin-left: -3px;
+}
+.vertline2{
+    border-left: 1.5px solid white;
+    height: 180px;
+    position: absolute;
+    top: 1200px;
+    left: 50%;
+    margin-left: -3px;
+}
+.vertline3{
+    border-left: 1.5px solid white;
+    height: 250px;
+    position: absolute;
+    top: 1800px;
+    left: 50%;
+    margin-left: -3px;
+}
+.flexbox5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #3DE16D;
+    left: 50%;
+    padding-bottom: 20px;
+}
+.equipcontent{
+    flex-direction: column;
+}
+.pullupbarimg{
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    alt: "Freestanding Pullup Bar";
+}
+
+.dipbarimg{
+    padding-top: 15px;
+    width: 300px;
+    alt: "Dip Bars";
+}
+/*                      End of Styling for Equipment Page                           */
+/*--------------------------------------------------------------------------------      */
+
+
+/*                      Styling for Sign Up Page            */
+.pinkbox{
+    background-color: #A64868;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+}
+form{
+    text-align: left;
+    color: gold;
+    font-size: 18px;
+    padding-right: 9%;
+    font-family: impact;
+}
+input[type=text], input[type=email], input[type=password], input[type=tel]{
+    width: 150%;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+}
+input[type=submit]{
+    width: 160%;
+    border-radius: 10px;
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+    padding: 10px;
+    font-family: Verdana;
+}
+
+input[type=submit]:hover{
+    background-color: deeppink;
+}
+
+/*                                      End of Signup Page Styling                  */
+/*-------------------------------------------------------------------------------------------------*/
+
+
+/*                                     Style for Checkout Page                              */
+.greenbox{
+    background-color: #21866F;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+}
+input[type=checkbox]{
+    margin: 10px;
+}
+.orderstyle{
+    font-family: impact;
+    font-size: 25px;
+    color: white;
+}
+
+
+/*                              End of Checkout Page Styling                            */
+/*-----------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 800px){
+    .whycalicontent{
+        align-self: center;
+        width: 300px;
+        font-size: 15px;
+        flex-shrink: 1;
+
+    }
+    .pullupimg{
+        width: 30%;
+        height: 20%;
+        align-items: center;
+    }
+    .vertline2{
+        top: 50px;
+    }
+    .ironcross{
+        height: 30%;
+        width: 30%;
+    }
+    .originbox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 1;
+    }
+    .origincontent{
+        width: 60%;
+        font-size: 15px;
+        flex-direction: row;
+    }
+    .onearmhs{
+        height: 40%;
+        width: 40%;
+    }
+    .whycalibox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .whycalicontent{
+        padding-right: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mystraddle{
+        width: 40%;
+    }
+    .labelimg{
+        width: 40%;
+        padding-bottom: 1px;
+    }
+    .whyuscontent{
+        font-size: 15px;
+    }
+    .link:link, .link:visited {
+        font-size: 12px;
+        height: fit-content;
+        width: 100px;
+        padding: 10px;
+
+    }
+    .vidbox{
+        flex-direction: column;
+    }
+    iframe{
+        width: 330px;
+        height: 180px;
+    }
+    .vidcontent{
+        font-size: 11px;
+        width: 50%;
+        padding: 10px;
+    }
+    i{
+        font-size: 8px;
+    }
+    .howtostartcontent{
+        font-size: 12px;
+    }
+    .howtostartcontent2{
+        font-size: 14px;
+        width: 40%;
+    }
+    .miniheader{
+        font-size: 17px;
+    }
+    .basicflexbox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .basiccontentimg{
+        width: 40%;
+    }
+    .pullupbarlogo{
+        width: 100%;
+    }
+    .pushup{
+        width: 100%;
+    }
+    .listcontent{
+        font-size: 15px;
+        width: 300px;
+    }
+    .handstandimg{
+        width: 70%;
+        padding-left: 15%;
+    }
+    .handstandvid{
+        padding-left: 25%;
+    }
+    .hsbox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexbox4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexbox5{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ringsimg{
+        padding-right: 0;
+    }
+    .vertline, .vertline2, .vertline3{
+        display: none;
+    }
+    .salecontent, .dipbartext{
+        padding-left: 10%;
+    }
+   
+    .dipbarimg{
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+    .pullupbartext{
+        padding-left: 20%;
+    }
+
+
+}
+@media only screen and (max-width: 1000px){
+    .vertline, .vertline2, .vertline3{
+        display: none;
+    }
+} 
+
+/*                                          End of Styling                                          */

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="styleshee" href="Normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Equipment Page</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="bttopbtn" title="Top">Back to Top</button>
+    <div class="mainlogobox">
+        <img class="mainlogo" src="Assets/Logo.png" alt="logo of a guy on a pullup bar">
+    </div><br>
+
+    <nav>
+        <ul class="ul">
+            <li class="li"><a href="index.html">Home</a></li>
+            <li class="li"><a href="training program.html">Training Programs</a></li>
+            <li class="li"><a class="active" href="Equipment Page.html">Equipment</a></li>
+            <li class="li"><a href="Signup Page.html">Signup</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Equipment Page</h1>
+    </header>
+    <article>
+        <div class="bluebox">
+            <h2>Gymnastic Rings</h2>
+            <hr class="hr2">
+            <div class="flexbox4">
+                <img class="ringsimg" src="Assets/gymnastic rings.jpg" alt="Gymnastic Rings">
+                <p class="salecontent">
+                    Materials: Wood 
+                    <br>
+                    Strap Length: 4m 
+                    <br>
+                    Ring Thickness: 32mm 
+                    <br>
+                    Sold with Straps 
+                    <br>
+                </p>
+                
+            </div>
+            <div class="vertline"></div><br>
+            <hr class="hr3">
+            <div class="flexbox5">
+                <div class="equipcontent">
+                    <p>$45 SGD</p>
+                    &nbsp;
+                    <a href="checkout page.html" class="buynow">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <article>
+        <div class="turquoisebox">
+            <h2>Freestanding Pullup Bar</h2>
+            <hr class="hr2">
+            <div class="flexbox 4">
+                <img src="Assets/pullup bar.jpg" class="pullupbarimg">
+                <p class="pullupbartext">
+                    High Quality Metal Bars
+                    <br>
+                    Takes up only 1.2m² of Floor Space
+                    <br>
+                    Free Shipping
+                </p>
+            </div>
+            <div class="vertline2"></div><br>
+            <hr class="hr3">
+            <div class="flexbox5">
+                <div class="equipcontent">
+                    <p>$120 SGD</p>
+                    &nbsp;
+                    <a href="checkout page.html" class="buynow">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <article>
+        <div class="otherbluebox">
+            <h2>Dip Bars</h2>
+            <hr class="hr2">
+            <div class="flexbox 4">
+                <img src="Assets/dip bars.jpg" class="dipbarimg">
+                <p class="dipbartext">
+                    Support up to 150kg
+                    <br>
+                    Compact Design
+                    <br>
+                    Comfortable Ergonomic Grip
+                    <br>   
+                    Product Weight: 10Kg
+                </p>
+            </div>
+            <div class="vertline3"></div><br>
+            <hr class="hr3">
+            <div class="flexbox5">
+                <div class="equipcontent">
+                    <p>$50 SGD</p>
+                    &nbsp;
+                    <a href="checkout page.html" class="buynow">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("bttopbtn").style.display = "block";
+  } else {
+    document.getElementById("bttopbtn").style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>	
+</html>
