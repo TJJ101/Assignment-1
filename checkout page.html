@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="styleshee" href="Normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Checkout Page</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="bttopbtn" title="Top">Back to Top</button>
+    <div class="mainlogobox">
+        <img class="mainlogo" src="Assets/Logo.png" alt="logo of a guy on a pullup bar">
+    </div><br>
+
+    <nav>
+        <ul class="ul">
+            <li class="li"><a href="index.html">Home</a></li>
+            <li class="li"><a href="training program.html">Training Programs</a></li>
+            <li class="li"><a href="Equipment Page.html">Equipment</a></li>
+            <li class="li"><a href="Signup Page.html">Signup</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+</body>
+<article>
+    <div class="greenbox">
+      <h2>Cart</h2>
+      <hr class="hr2">
+      <div class="flexbox5">
+        <form action="#">
+          <label for="order"><p class="orderstyle">Order(s):</p></label>
+          <input type="checkbox" name="bmastery" value="bmastery">Basics Mastery<br>
+          <input type="checkbox" name="hsmastery" value="hsmastery">Handstand Mastery<br>
+          <input type="checkbox" name="pmastery" value="pmastery">Planche Mastery<br>
+          <input type="checkbox" name="rings" value="rings">Gymnastic Rings<br>
+          <input type="checkbox" name="pullupbar" value="pullupbar">Freestanding Pullup Bar<br>
+          <input type="checkbox" name="dipbar" value="dipbar">Dip Bars<br>
+          <br>
+          <label for="coupon"></label>
+          <input type="text" id="coupon" name="coupon" placeholder="Coupon Code...">
+          <br><br>
+          <label for="cardnum"><p class="orderstyle">Credit Card Number: *</p></label>
+          <input type="tel" id="cardnum" name="cardnum" pattern="[0-9]{16}" required
+          placeholder="Credit Card Number...">
+          <br>
+          <label for="carddate"><p class="orderstyle">Expiry Date: *</p></label>
+          <input type="month" id="carddate" name="carddate" required>
+          <br>
+          <label for="cvv2"><p class="orderstyle">CVV2: *</p></label>
+          <input type="password" id="cvv2" name="cvv2" minlength="3" maxlength="3"
+          placeholder="Enter your CVV Code..." required>
+          <br>
+          <label for="name"><p class="orderstyle">Card Holder Name: *</p></label>
+          <input type="text" id="name" name="name" placeholder="Enter your Name..." required>
+          <br><br>
+          <input type="submit" value="order">
+        </div>
+      </form>
+    </div>
+</article>
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("bttopbtn").style.display = "block";
+  } else {
+    document.getElementById("bttopbtn").style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</html>

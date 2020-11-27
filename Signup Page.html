@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="styleshee" href="Normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Signup Page</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="bttopbtn" title="Top">Back to Top</button>
+    <div class="mainlogobox">
+        <img class="mainlogo" src="Assets/Logo.png" alt="logo of a guy on a pullup bar">
+    </div><br>
+
+    <nav>
+        <ul class="ul">
+            <li class="li"><a href="index.html">Home</a></li>
+            <li class="li"><a href="training program.html">Training Programs</a></li>
+            <li class="li"><a href="Equipment Page.html">Equipment</a></li>
+            <li class="li"><a class="active" href="Signup Page.html">Signup</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Sign Up</h1>
+    </header>
+    <article>
+        <div class="pinkbox">
+            <h2>Register</h2>
+            <div class="flexbox5">
+                <form action="#">
+                    <label for="fname"><p>First Name:</p></label>
+                    <input type="text" id="fname" name="fname" placeholder="Your First Name..." required>
+                    
+                    <label for="lname"><p>Last Name:</p></label>
+                    <input type="text" id="lname" name="lname" placeholder="Your Last Name..." required>
+
+                    <label for="email"><p>Email:</p></label>
+                    <input type="email" id="email" name="email" placeholder="Your Email..." required>
+
+                    <label for="password"><p>Password:</p></label>
+                    <input type="password" id="password" name="password" placeholder="Make a Secure Password.." required>
+                    <br><br>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </div>
+    </article>
+</body>
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("bttopbtn").style.display = "block";
+  } else {
+    document.getElementById("bttopbtn").style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>	
+</html>
