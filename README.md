@@ -1,6 +1,6 @@
 # Assignment-1
 Interactive Development Assignment 1
-URL: https://tjj101.github.io/Assignment-1/
+Url: https://tjj101.github.io/Assignment-1/
 Project Name: Calisthenics Store
 ---------------------------------------------------------------------------------------------
 Essentially, my website is about a Company/Person that is promoting their services which are
