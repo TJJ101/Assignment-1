@@ -1,6 +1,6 @@
 # Assignment-1
 Interactive Development Assignment 1
-
+URL: https://tjj101.github.io/Assignment-1/
 Project Name: Calisthenics Store
 ---------------------------------------------------------------------------------------------
 Essentially, my website is about a Company/Person that is promoting their services which are
@@ -95,7 +95,7 @@ of a similar Product: https://www.decathlon.sg/p/8503464-114120-training-station
 
 
 References:
-_____________________________________
+------------------------------------------------------------------------------
 Main Logo: https://www.pngwing.com/en/free-png-yflbh
 
 One Arm Handstand Logo: http://clipart-library.com/clip-art/silhouette-gymnast-20.htm
